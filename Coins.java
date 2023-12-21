@@ -6,7 +6,7 @@ public class Coins {
 	int num_of_quarters = total / quarter;
 	int num_of_cents = total - (quarter * num_of_quarters); 
 
-	System.out.println("Use " + num_of_quarters + " Quarters and " + num_of_cents + " Cents");
+	System.out.println("Use " + num_of_quarters + " quarters and " + num_of_cents + " cents");
 	
 	}
 }
